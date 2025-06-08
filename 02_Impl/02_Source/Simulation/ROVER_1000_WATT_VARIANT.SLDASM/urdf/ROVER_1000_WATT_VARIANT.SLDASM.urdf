@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ROVER_1000_WATT_VARIANT.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0352516654672473 0.000230769565957786 0.0766816513547671"
+        rpy="0 0 0" />
+      <mass
+        value="33.4459522433341" />
+      <inertia
+        ixx="0.233794970398492"
+        ixy="-0.000820762950210979"
+        ixz="1.94037912313266E-05"
+        iyy="0.228604041647293"
+        iyz="3.84951327810773E-08"
+        izz="0.363260170153768" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_back_left">
+    <inertial>
+      <origin
+        xyz="4.49661892065745E-06 -0.0232335779475503 2.28062891113878E-06"
+        rpy="0 0 0" />
+      <mass
+        value="7.01210916317506" />
+      <inertia
+        ixx="0.0385463527230898"
+        ixy="8.12076328747078E-10"
+        ixz="1.32402711085184E-07"
+        iyy="0.070058707373557"
+        iyz="-9.19710407224633E-10"
+        izz="0.0385461498535666" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_back_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_back_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_back_left"
+    type="continuous">
+    <origin
+      xyz="-0.25123 0.31801 0.033"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_back_left" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link_back_right">
+    <inertial>
+      <origin
+        xyz="-3.64137432995459E-06 0.0232335779504287 3.48728715038327E-06"
+        rpy="0 0 0" />
+      <mass
+        value="7.01210916337626" />
+      <inertia
+        ixx="0.0385462621038611"
+        ixy="1.0517074560545E-09"
+        ixz="-1.66452507092426E-07"
+        iyy="0.0700587073697079"
+        iyz="6.40039184629168E-10"
+        izz="0.038546240449158" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_back_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_back_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_back_right"
+    type="continuous">
+    <origin
+      xyz="-0.25123 -0.31801 0.033"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_back_right" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link_front_right">
+    <inertial>
+      <origin
+        xyz="-5.03135176002645E-06 0.0232335779405158 -3.26535119304916E-07"
+        rpy="0 0 0" />
+      <mass
+        value="7.01210916309939" />
+      <inertia
+        ixx="0.0385464161815833"
+        ixy="2.31102436130535E-10"
+        ixz="2.51179380247534E-08"
+        iyy="0.0700587073738718"
+        iyz="1.19805668857831E-09"
+        izz="0.0385460864074833" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_front_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_front_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_front_right"
+    type="continuous">
+    <origin
+      xyz="0.25117 -0.31801 0.033"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_front_right" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link_front_left">
+    <inertial>
+      <origin
+        xyz="1.19364070286232E-06 -0.0232335779450659 -4.89859288957395E-06"
+        rpy="0 0 0" />
+      <mass
+        value="7.01210916352614" />
+      <inertia
+        ixx="0.0385461015358498"
+        ixy="-1.07501481297144E-09"
+        ixz="-7.35193115972948E-08"
+        iyy="0.0700587073693941"
+        iyz="-5.92962624964763E-10"
+        izz="0.0385464010143947" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_front_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROVER_1000_WATT_VARIANT.SLDASM/meshes/link_front_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_front_left"
+    type="continuous">
+    <origin
+      xyz="0.25117 0.31801 0.033"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_front_left" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+</robot>
