@@ -5,3 +5,8 @@ The package contains Solidworks 3D rover model.
 ## 3D model
 
 ![Robot Model](00_Images/Rover_3d.png)
+
+
+## URDF viwer
+
+![Robot Model](00_Images/Rover_Viwer.png)
