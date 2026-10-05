@@ -1,0 +1,28 @@
+rover_a1_model
+Copyright 2025-2026 Mechatronics Academy
+
+The Rover A1 design in this repository - everything outside
+02_Impl/02_Source/Components/Components_NoProd/ - is licensed under the Apache
+License, Version 2.0 (see LICENSE). That covers the assemblies (Assembly/), the
+parts we manufacture (Components/Components_Prod/, Components/3d_Printer/,
+BatteryHolder/), the exported URDF package (Simulation/) and the images
+(00_Images/).
+
+Third-party models - NOT covered by the Apache License
+------------------------------------------------------
+
+02_Impl/02_Source/Components/Components_NoProd/ holds models of purchased,
+off-the-shelf components (sensors, motor and motor controller, IMU, switches,
+emergency stop, connectors, profiles, DIN rails, wheels, battery). Models
+obtained from a component's manufacturer remain the property of that
+manufacturer and are subject to its terms of use. They are included only so
+the assemblies open complete; this repository does not license them.
+
+This includes:
+
+  Components_NoProd/Lidar/ - RoboSense RS-LiDAR-16 3D model
+    ("RS-LiDAR-16 3D Model.stp" and the parts imported from it),
+    (c) RoboSense (Suteng Innovation Technology Co., Ltd.).
+
+To use or redistribute any of these models, obtain them from their
+manufacturer under the manufacturer's terms.
