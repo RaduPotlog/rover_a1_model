@@ -1,0 +1,12 @@
+# SolidWorks lock / owner files, created while a document is open
+~$*
+
+# SolidWorks auto-recover and backup files
+*.swar
+Backup of *
+*.SLDBAK
+*.bak
+
+# Windows
+Thumbs.db
+desktop.ini
